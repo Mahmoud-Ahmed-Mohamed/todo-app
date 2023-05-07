@@ -1,0 +1,9 @@
+<form action="" (ngSubmit)="addTodo()">
+    <input class="form-control" 
+    placeholder="Describe your task.." 
+    [(ngModel)]="title"
+    name="text"/>
+    <br>
+    <p *ngIf="title.length > 0">This task "{{title}}" will be added.</p>
+    <button class="btn btn-primary" type="submit">Add</button>
+</form>

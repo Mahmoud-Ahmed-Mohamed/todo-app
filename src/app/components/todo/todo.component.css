@@ -1,0 +1,9 @@
+.todo-item{
+    background: #eee;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.todo-completed{
+    background: #2cef95;
+}
